@@ -3,8 +3,8 @@ export type note = {
   title: string;
   tags: string[];
   body: string;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt: string;
+  updatedAt: string;
 };
 
 export const notes: Array<note> = [];
